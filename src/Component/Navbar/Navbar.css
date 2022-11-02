@@ -1,0 +1,53 @@
+.nav-logo-div {
+	width: auto;
+	height: auto;
+	max-width: 120px !important;
+	max-width: 70px;
+}
+
+.nav-logo {
+	width: 120px;
+	height: 70px;
+}
+
+.nav-a {
+	font-size: 19px;
+	color: white;
+	font-weight: 700;
+}
+.nav-a:hover {
+	color: white;
+	text-decoration: underline;
+}
+.a-btn {
+	color: white;
+	background-color: #70e000;
+	padding: 5px 10px;
+	border-radius: 4px;
+	font-size: 19px;
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+.a-btn:hover {
+	color: #70e000;
+	background-color: white;
+	text-decoration: underline;
+}
+@media screen and (max-width: 400px) {
+	.nav-a {
+		color: white;
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.a-btn {
+		color: white;
+		background-color: #70e000;
+		padding: 5px 10px;
+		border-radius: 4px;
+		font-size: 14px;
+		font-weight: 500;
+		white-space: nowrap;
+	}
+}
