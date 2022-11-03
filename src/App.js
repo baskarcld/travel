@@ -5,6 +5,9 @@ import Client from "./Component/Client/client";
 import Home from "./Component/Home/Home";
 import Navbar from "./Component/Navbar/Navbar";
 import Planet from "./Component/Planet/Planet";
+import Safe from "./Component/Safe/Safe";
+import Toke from "./Component/Tokenomic/Toke";
+import Work from "./Component/Work/Work";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Card />
       <About />
       <Planet />
+      <Work />
+      <Safe />
+      <Toke />
     </div>
   );
 }

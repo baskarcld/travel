@@ -1,0 +1,14 @@
+.work-icon {
+  font-size: 85px;
+  /* color: var(--text-green); */
+}
+
+/* telegram section */
+
+.telegram-section {
+  background-color: var(--background-color);
+  color: var(--text-white);
+}
+
+.telegram-button {
+}
