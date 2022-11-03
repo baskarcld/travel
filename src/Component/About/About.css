@@ -1,0 +1,43 @@
+.about-container {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: var(--text-white);
+}
+
+.about-h1 {
+  color: var(--background-color);
+}
+
+.about-h1-number {
+  color: var(--text-green);
+}
+
+.about-span {
+  color: var(--text-green);
+}
+
+.about-p-1 {
+  width: auto;
+  max-width: 60%;
+}
+
+.btn-item {
+  font-size: medium;
+  text-decoration: none;
+  color: var(--text-white);
+  background-color: var(--text-green);
+  padding: 5px 20px 9px 20px;
+  border-radius: 5px;
+  white-space: nowrap;
+  border: 2px solid var(--text-green);
+  transition: 0.3s;
+}
+
+.btn-item:hover {
+  transition: 0.3s;
+  border: 2px solid var(--text-green);
+  color: var(--text-green);
+  background-color: var(--text-white);
+  white-space: nowrap;
+}

@@ -3,7 +3,7 @@ import './Navbar.css';
 
 function Navbar() {
 	return (
-		<nav className="py-2 bg-dark">
+		<nav className="py-2 navbar-section">
 			<div className="nav-container container-fluid d-flex flex-md-row flex-column justify-content-between align-items-center px-5">
 				<div className="nav-logo-div mb-md-0 mb-4 mx-md-0 mx-auto">
 					<img src="images/logo_footer.png" alt="logo" className="nav-logo" />
@@ -28,6 +28,7 @@ function Navbar() {
 					</ul>
 				</div>
 			</div>
+			<hr className="bg-white" />
 		</nav>
 	);
 }

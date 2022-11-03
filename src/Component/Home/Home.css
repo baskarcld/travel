@@ -1,0 +1,34 @@
+.home-section {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	color: white;
+	background-color: #000814;
+}
+
+.home-h2 {
+	color: #70e000;
+}
+
+.cu {
+	color: var(--text-green);
+	font-weight: 600;
+}
+
+.home-ul li {
+	font-size: x-large;
+}
+
+.home-img-div {
+	width: auto;
+	height: auto;
+	max-width: 300px;
+	max-height: 400px;
+	margin: 0px auto;
+}
+
+.home-img {
+	width: 100%;
+	height: 100%;
+	border-radius: 12px;
+}
