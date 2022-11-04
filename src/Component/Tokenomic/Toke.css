@@ -4,3 +4,11 @@
   box-sizing: border-box;
   background-color: var(--background-color);
 }
+
+.toke-icon {
+  font-size: 80px;
+}
+
+.toke-text {
+  font-size: x-large;
+}
