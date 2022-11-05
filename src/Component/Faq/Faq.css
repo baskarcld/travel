@@ -1,5 +1,5 @@
 .faq-card {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -13,4 +13,20 @@
 
 .faq-h1 {
   color: var(--text-green);
+}
+
+@media screen and (max-width: 992px) {
+  .faq-edit-h1 {
+    font-size: large !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .faq-edit-h1 {
+    font-size: 12px !important;
+  }
+  .show-p {
+    display: block;
+    font-size: 12px !important;
+  }
 }

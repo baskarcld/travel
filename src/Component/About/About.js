@@ -1,7 +1,8 @@
 import React from "react";
 import "./About.css";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
-function About() {
+function About ()
+{
   return (
     <>
       <div className="about-container container-fluid py-5">
@@ -17,9 +18,9 @@ function About() {
         <h1 className="about-h1 h1 fw-bold text-center">
           Fixed Annual Percentage Yield
         </h1>
-        <div className="about-content-div px-5 py-4">
+        <div className="about-content-div px-sm-5 px-1 py-4">
           <div className="row">
-            <div className="col-8">
+            <div className="col-md-8 col-12">
               <h1 className="about-h1 h1 fw-bold text-left">About</h1>
               <p className="h6 lh-base mt-4">
                 Financial freedom is everyone’s dream these days, We at
@@ -49,7 +50,7 @@ function About() {
                 benefits to travel the world.
               </p>
             </div>
-            <div className="col-4">
+            <div className="col-md-4 col-12">
               <h1 className="about-h1 h2 fw-bold text-left">
                 Start investment: $100
               </h1>

@@ -1,14 +1,15 @@
 import React from "react";
 import "./Card.css";
 import { BsCheckLg } from "react-icons/bs";
-function Card() {
+function Card ()
+{
   return (
     <>
       <section className="container-fluid card-section py-5">
         <h2 className="h1 text-center text-white">NFT - Tiers and Benefits</h2>
         <div className="card-content-div mt-5">
           <div className="row">
-            <div className="col-4">
+            <div className="col-md-4 col-12">
               <div class="card card-items">
                 <img
                   src="images/SILVER.png"
@@ -56,7 +57,7 @@ function Card() {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-md-4 col-12 my-md-0 my-4">
               <div class="card card-items">
                 <img
                   src="images/GOLD.png"
@@ -104,7 +105,7 @@ function Card() {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-md-4 col-12">
               <div class="card card-items">
                 <img
                   src="images/DIAMOND.png"

@@ -41,3 +41,10 @@
   background-color: var(--text-white);
   white-space: nowrap;
 }
+
+@media screen and (max-width: 576px) {
+  .about-p-1 {
+    width: auto;
+    max-width: 90%;
+  }
+}

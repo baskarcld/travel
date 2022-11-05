@@ -41,10 +41,10 @@ function Faq ()
         {
           item.map( ( items, index ) =>
           (
-            <div className='faq-content-div mt-4' index={index}>
+            <div className='faq-content-div mt-sm-4 mt-3' index={index}>
               <div className='faq-card' key={items.id} onClick={() => ToggleClass( index )}>
                 <div>
-                  <h2 className={index !== selectedFaq ? 'h1' : 'h1 faq-h1'}><span className='me-4'><i>{index !== selectedFaq ? <TiArrowRightThick /> : <TiArrowDownThick />}</i></span>{items.head}</h2>
+                  <h2 className={index !== selectedFaq ? 'h1 faq-edit-h1' : 'h1  faq-edit-h1 faq-h1'}><span className='me-4'><i>{index !== selectedFaq ? <TiArrowRightThick /> : <TiArrowDownThick />}</i></span>{items.head}</h2>
                 </div>
 
                 <p className={index !== selectedFaq ? 'hide-p h6 px-5' : 'h6 show-p px-5'}>

@@ -34,49 +34,63 @@ function Toke ()
             </div>
           </div>
 
-          <div className="row d-flex flex-row justify-content-center mt-4">
-            <div className="col-3 toke-text d-flex justify-content-end text-white text-end">
+          <div className="row d-flex flex-md-row flex-column justify-content-center mt-4">
+            <div className="col-md-3 col-12 d-flex justify-content-center d-md-none"><i className="cu fs-1"><GiPayMoney /></i></div>
+            <div className="col-md-3 col-12 toke-text  text-white text-md-end text-center">
+              <span className="h5 text-info d-md-none">Buy</span><br />
               Automatic LP<br />
               2% of order fee return to liquidity
             </div>
-            <div className="col-3 d-flex justify-content-center"><i className="cu fs-1"><GiPayMoney /></i></div>
-            <div className="col-3 toke-text text-white">
+            <div className="col-md-3 col-12 d-md-flex justify-content-center d-none"><i className="cu fs-1"><GiPayMoney /></i></div>
+            <div className="col-md-3 col-12 toke-text text-white text-md-start text-center">
+              <span className="h5 text-danger d-md-none">sell</span><br />
               Automatic LP<br />
               2% of order fee return to liquidity
             </div>
           </div>
 
 
-          <div className="row d-flex flex-row justify-content-center mt-4">
-            <div className="col-3 toke-text d-flex justify-content-end text-white text-end">
+          <div className="row d-flex flex-md-row flex-column justify-content-center mt-4">
+            <div className="col-md-3 col-12 d-flex justify-content-center d-md-none"><i className="cu fs-1"><BsUmbrellaFill /></i></div>
+            <div className="col-md-3 col-12 toke-text  text-white text-md-end text-center">
+              <span className="h5 text-info d-md-none">Buy</span><br />
               TIF<br />
               3% of order fees are stored in the TIF
             </div>
-            <div className="col-3 d-flex justify-content-center"><i className="cu fs-1"><BsUmbrellaFill /></i></div>
-            <div className="col-3 toke-text text-white">
+            <div className="col-md-3 col-12 d-md-flex justify-content-center d-none"><i className="cu fs-1"><BsUmbrellaFill /></i></div>
+            <div className="col-md-3 col-12 toke-text text-white text-md-start text-center">
+              <span className="h5 text-danger d-md-none">sell</span><br />
               TIF<br />
               8% of order fees are stored in the TIF
             </div>
           </div>
 
-          <div className="row d-flex flex-row justify-content-center mt-4">
-            <div className="col-3 toke-text d-flex justify-content-end text-white text-end">
+
+
+          <div className="row d-flex flex-md-row flex-column justify-content-center mt-4">
+            <div className="col-md-3 col-12 d-flex justify-content-center d-md-none"><i className="cu fs-1"><BsBank2 /></i></div>
+            <div className="col-md-3 col-12 toke-text  text-white text-md-end text-center">
+              <span className="h5 text-info d-md-none">Buy</span><br />
               Treasury<br />
               5% of order fees go to the Treasury
             </div>
-            <div className="col-3 d-flex justify-content-center"><i className="cu fs-1"><BsBank2 /></i></div>
-            <div className="col-3 toke-text text-white">
+            <div className="col-md-3 col-12 d-md-flex justify-content-center d-none"><i className="cu fs-1"><BsBank2 /></i></div>
+            <div className="col-md-3 col-12 toke-text text-white text-md-start text-center">
+              <span className="h5 text-danger d-md-none">sell</span><br />
               Treasury<br />
               10% of order fees go to the Treasury
             </div>
           </div>
 
-          <div className="row d-flex flex-row justify-content-center mt-4">
-            <div className="col-3 toke-text d-flex justify-content-end text-white text-end">
 
+          <div className="row d-flex flex-md-row flex-column justify-content-center mt-4">
+            <div className="col-md-3 col-12 d-flex justify-content-center d-md-none"><i className="cu fs-1"><BsShieldShaded /></i></div>
+            <div className="col-md-3 col-12 toke-text  text-white text-md-end text-center">
+              
             </div>
-            <div className="col-3 d-flex justify-content-center"><i className="cu fs-1"><BsShieldShaded /></i></div>
-            <div className="col-3 toke-text text-white">
+            <div className="col-md-3 col-12 d-md-flex justify-content-center d-none"><i className="cu fs-1"><BsShieldShaded /></i></div>
+            <div className="col-md-3 col-12 toke-text text-white text-md-start text-center">
+              <span className="h5 text-danger d-md-none">sell</span><br />
               $TRAVELERSE Max Withdrawal Limit is Currently{" "}
               <span className="cu">3% of Your Total Tokens</span> Every 24-Hours
             </div>

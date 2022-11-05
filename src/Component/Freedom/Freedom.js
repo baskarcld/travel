@@ -12,8 +12,8 @@ function Freedom ()
 
         <div className="safe-content-div py-5">
           <div className="row">
-            <div className="col-5">
-              <div className="safe-img-div-1">
+            <div className="col-lg-5 col-12">
+              <div className="safe-img-div-1 mt-4">
                 <img
                   src="images\lllustration-2.png"
                   alt="img"
@@ -22,8 +22,8 @@ function Freedom ()
               </div>
             </div>
 
-            <div className="col-7">
-              <ul>
+            <div className="col-lg-7 col-12 mt-lg-0 mt-4">
+              <ul className='ps-md-4 ps-1'>
                 <h3 className='h3 fw-bold'>LOCK - EARN - <span className='cu text-decoration-underline'>TRAVEL</span></h3>
                 <li className="h5 mt-3">
                   <span className="cu me-3">

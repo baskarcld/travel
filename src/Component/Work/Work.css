@@ -10,5 +10,8 @@
   color: var(--text-white);
 }
 
-.telegram-button {
+@media screen and (max-width: 576px) {
+  .telegram-h1 {
+    font-size: 20px;
+  }
 }

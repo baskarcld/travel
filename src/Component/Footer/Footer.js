@@ -6,17 +6,17 @@ function Footer ()
 {
   return (
     <>
-      <section className='footer-section container-fluid'>
+      <section className='footer-section container-fluid py-5'>
         <div className='footer-content-div'>
           <div className='row'>
-            <div className='col-7 ps-5'>
-              <div className='footer-logo-div my-5'>
-                <img src="images\logo_footer.png" alt="" />
+            <div className='col-md-7 col-12 ps-5'>
+              <div className='footer-logo-div'>
+                <img src="images\logo_footer_1.png" alt="" />
               </div>
-              <h3 className='h3 text-white'>Lock, Earn, Travel</h3>
+              <h3 className='h3 text-white mt-3'>Lock, Earn, Travel</h3>
               <p className='text text-white'>Crytocurrency is a high risk investment and may result in total loss. DYOR</p>
             </div>
-            <div className='col-5 my-5'>
+            <div className='col-md-5 col-12 ps-5 mt-md-0 mt-3'>
               <h3 className='h3 text-white'>Connect with us:</h3>
               <div className='d-flex'>
                 <div className='me-4 footer-icon-div'>
@@ -32,7 +32,7 @@ function Footer ()
       </section>
       <section className='copy-section container-fluid bg-white'>
         <div className='copy-content-div py-2'>
-          <h2 className='h2 text-black text-center'>Copyright © 2022 - Travelerse</h2>
+          <h2 className='h2 copy-text text-black text-center'>Copyright © 2022 - Travelerse</h2>
         </div>
       </section>
     </>

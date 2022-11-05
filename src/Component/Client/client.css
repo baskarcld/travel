@@ -1,0 +1,41 @@
+@media screen and (max-width: 992px) {
+  .client-logo-div {
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-width: auto;
+  }
+
+  .client-logo {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .client-logo-div {
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-width: auto;
+  }
+
+  .client-logo {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .client-logo-div {
+    width: auto;
+    height: auto;
+    max-width: 60px;
+    max-width: auto;
+  }
+
+  .client-logo {
+    width: 100%;
+    height: auto;
+  }
+}
