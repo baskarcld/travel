@@ -41,7 +41,7 @@ function Faq ()
         {
           item.map( ( items, index ) =>
           (
-            <div className='faq-content-div' index={index}>
+            <div className='faq-content-div mt-4' index={index}>
               <div className='faq-card' key={items.id} onClick={() => ToggleClass( index )}>
                 <div>
                   <h2 className={index !== selectedFaq ? 'h1' : 'h1 faq-h1'}><span className='me-4'><i>{index !== selectedFaq ? <TiArrowRightThick /> : <TiArrowDownThick />}</i></span>{items.head}</h2>

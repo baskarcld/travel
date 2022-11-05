@@ -1,0 +1,20 @@
+.footer-section {
+  background-color: var(--background-color);
+}
+
+.footer-logo-div {
+  width: auto;
+  height: auto;
+  max-width: 150px;
+  max-height: 40px;
+  object-fit: contain;
+}
+
+.footer-logo-div img {
+  width: 100%;
+  height: auto;
+}
+
+.footer-icon:hover {
+  color: var(--text-green);
+}
